@@ -1,0 +1,21 @@
+Package: QuantTools
+Title: An R Package for Estimating and Testing Asset Pricing Factor Models
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ali", "Moin", , "a.moin@tinbergen.nl", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The proposed package is designed to provide a comprehensive toolset for financial econometrics, focusing on the estimation and testing of asset pricing factor models. By incorporating a variety of typical asset pricing datasets and efficient implementation of state-of-the-art methodologies, this package aims to simplify the process of data preparation and methodology selection. The package introduces features for the estimation of factor models and testing for model misspecification, model identification, and the significance of risk premia. Moreover, it incorporates various regression techniques, Continuous Update Estimation (CUE), Generalized Method of Moments (GMM) techniques, and a penalized approach.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
